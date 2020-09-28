@@ -29,6 +29,7 @@ typedef pair< int ,int > pii;
  
 signed main()
 {
+
  FIO;
 int t;
 cin>>t;
@@ -41,12 +42,10 @@ while(t--){
     fl=1;
  }
  if(fl==0){
-int tot=1,cu=2;
-while(cu<n){
-    cu+=x;
-    tot++;
-}
-cout<<tot<<endl;
+n-=2;
+int a=(n+x-1)/x;
+a++;
+cout<<a<<endl;
  }
  
 } 
