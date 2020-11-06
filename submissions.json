@@ -366,6 +366,24 @@
     ],
     "timestamp": "Dec/21/2020 01:16"
   },
+  "CF97763233": {
+    "contest_id": 1430,
+    "language": "GNU C++17",
+    "path": "codeforces\\1430\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Barrels",
+    "problem_url": "https://codeforces.com/contest/1430/problem/B",
+    "submission_id": "CF97763233",
+    "submission_url": "https://codeforces.com/contest/1430/submission/97763233",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Nov/06/2020 14:21"
+  },
   "CF97768989": {
     "contest_id": 1430,
     "language": "GNU C++17",
