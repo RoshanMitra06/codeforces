@@ -366,6 +366,23 @@
     ],
     "timestamp": "Dec/21/2020 01:16"
   },
+  "CF99363964": {
+    "contest_id": 1391,
+    "language": "GNU C++17",
+    "path": "codeforces\\1391\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Suborrays",
+    "problem_url": "https://codeforces.com/contest/1391/problem/A",
+    "submission_id": "CF99363964",
+    "submission_url": "https://codeforces.com/contest/1391/submission/99363964",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/24/2020 10:32"
+  },
   "CF99433516": {
     "contest_id": 1454,
     "language": "GNU C++17",
