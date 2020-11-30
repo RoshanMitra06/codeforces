@@ -1,14 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
  
-// Athor : Roshan Mitra 
-// Language: C++
-// College: Symbiosis Institute Of Technology
-//Practice is the only key to success
+//keep coding
+//-Roshan Mitra (SIT Pune) 
 typedef vector <int> vi;
 typedef pair< int ,int > pii;
 #define endl "\n"
-#define set_bits(a) __builtin_popcountll(a)
 #define f0(i,n) for(int i=0;i<n;i++) 
 #define f1(i,n) for(int i=1;i<=n;i++)
 #define sd(val) scanf("%d",&val)
@@ -17,9 +14,9 @@ typedef pair< int ,int > pii;
 #define debug(val) printf("check%d\n",val)
 #define all(v) v.begin(),v.end()
 #define pb push_back
-#define mp make_pair
-#define fi first
-#define se second
+#define MP make_pair
+#define FF first
+#define SS second
 #define int long long
 #define MOD 1000000007
 #define clr(val) memset(val,0,sizeof(val))
@@ -32,10 +29,7 @@ typedef pair< int ,int > pii;
  
 signed main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+
  FIO;
 int t;
 cin>>t;
@@ -43,7 +37,7 @@ while(t--){
  string s;
  cin>>s;
  cout<<s.size()<<endl;
- 
+
 } 
 return 0;
    
