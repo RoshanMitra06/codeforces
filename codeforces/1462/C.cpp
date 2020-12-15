@@ -36,35 +36,81 @@ typedef vector <int> vi;
     freopen("output.txt", "w", stdout);
 #endif
 }
- 
- void solve(){
-  int n;
-  cin>>n;
-  if(n>45){
-      cout<<"-1\n";
-      return;
-  }
-  string s;
-  for(int i=9;i>0;i--){
-        if(n<=9 && n<=i){
-            s+=to_string(n);
-             n=0;
-             break;
+ void solve(int n){
+int arr[]={1,2,3,4,5,6,7,8,9};
+ bool fl=0;
+ if(n<10){
+     cout<<n<<endl;
+     return;
+ }
+else if(n>9 && n<=17){
+    for(int i=0;i<9;i++){
+        for(int j=1;j<9;j++){
+            if(arr[i]+arr[j]==n){
+                cout<<arr[i]<<""<<arr[j]<<endl;
+                return;
+            }
         }
-        else{
-             s+=to_string(i);
-             n-=i;
-           }
-  }
-
-  if(n!=0){
-      cout<<-1<<endl;
-      return;
-  }
-  reverse(all(s));
-cout<<s<<endl;
-
+    }
 }
+else if(n>17 && n<=24){
+    for(int i=0;i<9;i++){
+        if(arr[i]+17==n){
+            cout<<arr[i]<<"89\n";
+            return;
+        }
+    }
+}
+else if(n>24 && n<=30){
+       for(int i=0;i<9;i++){
+            if(arr[i]+24==n){
+            cout<<arr[i]<<"789\n";
+            return;
+        }
+    } 
+}
+else if(n>30 && n<36){
+        for(int i=0;i<9;i++){
+            if(arr[i]+30==n){
+                cout<<arr[i]<<"6789\n";
+            return;
+        }
+    } 
+}
+else if(n>35 && n<=39){
+        for(int i=0;i<9;i++){
+            if(arr[i]+35==n){
+                cout<<arr[i]<<"56789\n";
+            return;
+        }
+    } 
+}
+else if(n>39 && n<=42){
+        for(int i=0;i<9;i++){
+            if(arr[i]+39==n){
+                cout<<arr[i]<<"456789\n";
+            return;
+        }
+    } 
+}
+else if(n>45){
+    cout<<-1<<endl;
+    return;
+}
+else if(n==45){
+    cout<<123456789<<endl;
+    return;
+}
+else if(n==44){
+    cout<<23456789<<endl;
+    return;
+}
+else if(n==43){
+    cout<<13456789<<endl;
+    return;
+}
+
+ }
 signed main()
 {
  file();
@@ -72,8 +118,8 @@ signed main()
 int t;
 cin>>t;
 while(t--){
- solve();
-} 
-return 0;
-   
+ int n;
+ cin>>n;
+ solve(n);
+}
 }
