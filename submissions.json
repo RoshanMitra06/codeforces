@@ -456,6 +456,24 @@
     ],
     "timestamp": "Jan/20/2021 21:34"
   },
+  "CF105035931": {
+    "contest_id": 350,
+    "language": "GNU C++17",
+    "path": "codeforces\\350\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "TL",
+    "problem_url": "https://codeforces.com/contest/350/problem/A",
+    "submission_id": "CF105035931",
+    "submission_url": "https://codeforces.com/contest/350/submission/105035931",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jan/22/2021 10:50"
+  },
   "CF105119898": {
     "contest_id": 160,
     "language": "GNU C++17",
