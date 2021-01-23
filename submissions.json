@@ -456,6 +456,23 @@
     ],
     "timestamp": "Jan/20/2021 21:34"
   },
+  "CF105146479": {
+    "contest_id": 254,
+    "language": "GNU C++17",
+    "path": "codeforces\\254\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cards with Numbers",
+    "problem_url": "https://codeforces.com/contest/254/problem/A",
+    "submission_id": "CF105146479",
+    "submission_url": "https://codeforces.com/contest/254/submission/105146479",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jan/23/2021 17:06"
+  },
   "CF105196888": {
     "contest_id": 353,
     "language": "GNU C++17",
