@@ -456,6 +456,22 @@
     ],
     "timestamp": "Jan/20/2021 21:34"
   },
+  "CF106476090": {
+    "contest_id": 139,
+    "language": "GNU C++17",
+    "path": "codeforces\\139\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Petr and Book",
+    "problem_url": "https://codeforces.com/contest/139/problem/A",
+    "submission_id": "CF106476090",
+    "submission_url": "https://codeforces.com/contest/139/submission/106476090",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/04/2021 22:19"
+  },
   "CF106483472": {
     "contest_id": 34,
     "language": "GNU C++17",
