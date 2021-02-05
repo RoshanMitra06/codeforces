@@ -43,28 +43,24 @@ typedef vector <int> vi;
  cin>>n>>k;
  vi v(n);
  f0(i,n) cin>>v[i];
-    while(k>0){
-        k--;
-        int i=0;
-        while(i<n-1){
-            if(v[i]<v[i+1]){
-                v[i]++;
+ int lt=-1;
+ bool f=false;
+    for(int i=1;i<=k;i++){
+        int j;
+        for(j=1;j<n;j++){
+            if(v[j]>v[j-1]){
+                v[j-1]+=1;
+                lt=j;
                 break;
             }
-            i++;
         }
-        //cout<<i;
-        if(i!=n-1){
-            if(k==0) {
-                cout<<i+1<<endl;
-                rr;
-            }
-        }
-        else{
-            cout<<-1<<endl;
-            rr;
+        if(j==n){
+            f=true;
+            break;
         }
     }
+    if(f) cout<<-1<<endl;
+    else cout<<lt<<endl;
 }
 signed main()
 {
