@@ -456,6 +456,23 @@
     ],
     "timestamp": "Jan/20/2021 21:34"
   },
+  "CF107254289": {
+    "contest_id": 41,
+    "language": "GNU C++17",
+    "path": "codeforces\\41\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Translation",
+    "problem_url": "https://codeforces.com/contest/41/problem/A",
+    "submission_id": "CF107254289",
+    "submission_url": "https://codeforces.com/contest/41/submission/107254289",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/13/2021 10:30"
+  },
   "CF107255613": {
     "contest_id": 168,
     "language": "GNU C++17",
