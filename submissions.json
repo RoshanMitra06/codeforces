@@ -1794,6 +1794,22 @@
     ],
     "timestamp": "Feb/24/2021 20:38"
   },
+  "CF108643496": {
+    "contest_id": 615,
+    "language": "GNU C++17",
+    "path": "codeforces\\615\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bulbs",
+    "problem_url": "https://codeforces.com/contest/615/problem/A",
+    "submission_id": "CF108643496",
+    "submission_url": "https://codeforces.com/contest/615/submission/108643496",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/28/2021 11:56"
+  },
   "CF108645637": {
     "contest_id": 408,
     "language": "GNU C++17",
