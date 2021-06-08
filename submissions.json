@@ -1794,6 +1794,26 @@
     ],
     "timestamp": "Feb/24/2021 20:38"
   },
+  "CF118832641": {
+    "contest_id": 1359,
+    "language": "GNU C++17",
+    "path": "codeforces\\1359\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Theatre Square",
+    "problem_url": "https://codeforces.com/contest/1359/problem/B",
+    "submission_id": "CF118832641",
+    "submission_url": "https://codeforces.com/contest/1359/submission/118832641",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Jun/08/2021 23:49"
+  },
   "CF118907686": {
     "contest_id": 1285,
     "language": "GNU C++17",
