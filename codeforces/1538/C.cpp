@@ -40,22 +40,64 @@ void file()
     freopen("output.txt", "w", stdout);
 #endif
 }
+//finding upper and lower bounds and subtracting the two to get res
+int upper(vector<int> &v, int start, int end, int r, int l, int val)
+{
+    int ans = -1;
+    while (start <= end)
+    {
+        int m = (start + end) >> 1;
+        if (v[m] + val >= l and v[m] + val <= r)
+        {
+            ans = m;
+            start = m + 1;
+        }
+        else if (v[m] + val < r)
+            start = m + 1;
+        else if (v[m] + val > r)
+            end = m - 1;
+    }
+    return ans;
+}
+int lower(vector<int> &v, int start, int end, int l, int r, int val)
+{
+    int ans = -1;
+    while (start <= end)
+    {
+        int m = (start + end) >> 1;
+        if (v[m] + val >= l and v[m] + val <= r)
+        {
+            ans = m;
+            end = m - 1;
+        }
+        else if (v[m] + val < l)
+            start = m + 1;
 
+        else if (v[m] + val > l)
+            end = m - 1;
+    }
+    return ans;
+}
 void solve()
 {
     int n, l, r;
     cin >> n >> l >> r;
     vi v(n);
     f0(i, n) cin >> v[i];
-
-    sort(all(v));
-
     int res = 0;
-    f0(i, n)
+    sort(all(v));
+    for (int i = 0; i < n - 1; i++)
     {
-        auto a = lower_bound(v.begin() + i + 1, v.end(), l - v[i]);
-        auto b = upper_bound(v.begin() + i + 1, v.end(), r - v[i]);
-        res += b - a;
+        int c1 = upper(v, i + 1, n - 1, r, l, v[i]);
+        // auto c1 = upper_bound(v.begin() + i, v.end(), v[i] + l);
+        // auto c2 = lower_bound(v.begin() + i, v.end(), v[i] + r);
+        int c2 = lower(v, i + 1, n - 1, l, r, v[i]);
+
+        //cout << c1 << " " << c2 << endl;
+        if (c1 != -1 and c2 != -1)
+        {
+            res += c1 - c2 + 1;
+        }
     }
     cout << res << endl;
 }
