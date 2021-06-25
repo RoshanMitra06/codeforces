@@ -43,28 +43,33 @@ void file()
 
 void solve()
 {
-  int n, c = 0;
+  int n;
   cin >> n;
-  vi v(n + 1);
-  f1(i, n) cin >> v[i];
-  vector<pair<int, int>> vp(n + 1);
-  f1(i, n) vp[i] = {v[i], i};
-
-  sort(all(vp));
-
-  for (int i = 1; i <= n; i++)
+  vi v(n);
+  f0(i, n) cin >> v[i];
+  map<int, int> mpp;
+  for (int i = 0; i < n; i++)
   {
-    for (int j = i + 1; j <= n; j++)
+    mpp.insert({v[i], i + 1});
+  }
+
+  int res = 0;
+  for (int i = 3; i <= 2 * n - 1; i++)
+  {
+    for (int j = 1; j * j <= i; j++)
     {
-      int mul = vp[i].ff * vp[j].ff;
-      int add = vp[i].ss + vp[j].ss;
-      if (mul == add)
-        c++;
-      if (mul >= 2 * n)
-        break;
+      if (i % j == 0 and (i / j) != j)
+      {
+        if (mpp[i / j] and mpp[j])
+        {
+          int x = mpp[i / j] + mpp[j];
+          if (i == x)
+            res++;
+        }
+      }
     }
   }
-  cout << c << endl;
+  cout << res << endl;
 }
 signed main()
 {
