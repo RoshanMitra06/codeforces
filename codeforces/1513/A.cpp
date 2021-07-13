@@ -59,7 +59,7 @@ void solve()
 {
     int n, k;
     cin >> n >> k;
-    if (n / 2 < k or (n / 2 == k and n % 2 == 0))
+    if ((n - 1) / 2 < k)
     {
         cout << -1 << endl;
         rr;
