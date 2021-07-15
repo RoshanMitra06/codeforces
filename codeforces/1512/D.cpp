@@ -9,12 +9,6 @@
 #include <ext/pb_ds/tree_policy.hpp>
 #include <ext/pb_ds/detail/standard_policies.hpp>
 
-//Optimizing
-#pragma GCC optimize("unroll-loops")
-#pragma GCC target("avx2")
-#pragma GCC target("avx2")
-#pragma GCC optimize("Os")
-
 using namespace std;
 using namespace __gnu_pbds;
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
