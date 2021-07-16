@@ -2860,6 +2860,24 @@
     ],
     "timestamp": "Jul/11/2021 21:54"
   },
+  "CF122690068": {
+    "contest_id": 1510,
+    "language": "GNU C++17",
+    "path": "codeforces\\1510\\K.cpp",
+    "platform": "Codeforces",
+    "problem_index": "K",
+    "problem_name": "King's Task",
+    "problem_url": "https://codeforces.com/contest/1510/problem/K",
+    "submission_id": "CF122690068",
+    "submission_url": "https://codeforces.com/contest/1510/submission/122690068",
+    "tags": [
+      "brute force",
+      "graphs",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jul/16/2021 20:40"
+  },
   "CF122695654": {
     "contest_id": 1174,
     "language": "GNU C++17",
