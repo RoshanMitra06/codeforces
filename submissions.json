@@ -3446,6 +3446,24 @@
     ],
     "timestamp": "Jul/17/2021 10:55"
   },
+  "CF123536638": {
+    "contest_id": 1492,
+    "language": "GNU C++17",
+    "path": "codeforces\\1492\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Card Deck",
+    "problem_url": "https://codeforces.com/contest/1492/problem/B",
+    "submission_id": "CF123536638",
+    "submission_url": "https://codeforces.com/contest/1492/submission/123536638",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jul/23/2021 23:11"
+  },
   "CF123545053": {
     "contest_id": 1490,
     "language": "GNU C++17",
