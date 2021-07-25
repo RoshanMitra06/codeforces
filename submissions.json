@@ -3446,6 +3446,22 @@
     ],
     "timestamp": "Jul/17/2021 10:55"
   },
+  "CF123774744": {
+    "contest_id": 1506,
+    "language": "GNU C++17",
+    "path": "codeforces\\1506\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Strange Table",
+    "problem_url": "https://codeforces.com/contest/1506/problem/A",
+    "submission_id": "CF123774744",
+    "submission_url": "https://codeforces.com/contest/1506/submission/123774744",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/26/2021 00:43"
+  },
   "CF123797420": {
     "contest_id": 1472,
     "language": "GNU C++17",
